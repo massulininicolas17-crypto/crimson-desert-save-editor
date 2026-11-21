@@ -1,0 +1,12 @@
+[host]
+plugins_dir = "plugins"
+save_root = "~/.cdse/saves"
+
+[ui]
+theme = "dark"
+window_width = 920
+window_height = 600
+
+[backup]
+enabled = true
+keep = 20
