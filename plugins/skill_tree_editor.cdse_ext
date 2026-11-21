@@ -1,0 +1,2 @@
+"""Example extension package — skill tree editor."""
+from crimson_desert_skills.tree_editor import SkillTreeEditor
