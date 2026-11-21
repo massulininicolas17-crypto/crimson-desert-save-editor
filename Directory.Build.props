@@ -1,0 +1,3 @@
+# Placeholder for future C# bridge (save-editor-ui WPF shell).
+# Python host remains the source of truth. Kept so the monorepo convention
+# matches the upstream installer preset.
