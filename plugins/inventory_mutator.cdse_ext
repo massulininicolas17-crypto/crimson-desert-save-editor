@@ -1,0 +1,2 @@
+"""Example extension package — inventory mutator."""
+from crimson_desert_inventory.item_mutator import InventoryMutator
