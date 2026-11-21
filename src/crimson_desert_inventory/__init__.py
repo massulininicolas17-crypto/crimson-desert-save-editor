@@ -1,0 +1,1 @@
+"""Inventory extension — add/remove/edit items in save payloads."""
