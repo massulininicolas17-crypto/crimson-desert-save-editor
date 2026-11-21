@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#1a1210"/>
+  
+  <!-- Outer engraved badge frame - off-center, tilted feel -->
+  <path d="M 126 18 L 238 34 L 242 146 L 218 234 L 34 244 L 16 128 L 30 26 Z" 
+        fill="#1a1210" stroke="#a63a24" stroke-width="5" stroke-linejoin="round"/>
+  
+  <!-- Inner weathered frame line -->
+  <path d="M 130 30 L 226 44 L 230 142 L 208 222 L 42 230 L 28 130 L 40 38 Z" 
+        fill="none" stroke="#e8d9c3" stroke-width="1.5" stroke-linejoin="round" opacity="0.35"/>
+  
+  <!-- Dusk-lit top edge accent -->
+  <path d="M 126 18 L 238 34 L 230 44 L 130 30 Z" fill="#f2b544" opacity="0.55"/>
+  
+  <!-- Desert sandstone tablet - irregular slab, cropped lower right -->
+  <path d="M 68 58 L 186 66 L 194 152 L 172 206 L 92 210 L 64 168 Z" 
+        fill="#a63a24" stroke="#1a1210" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Sandstone weathering / strata lines -->
+  <path d="M 70 92 L 188 100" stroke="#1a1210" stroke-width="2" opacity="0.5"/>
+  <path d="M 67 128 L 191 136" stroke="#1a1210" stroke-width="2" opacity="0.45"/>
+  <path d="M 90 176 L 186 182" stroke="#1a1210" stroke-width="2" opacity="0.4"/>
+  <path d="M 74 148 L 140 153" stroke="#f2b544" stroke-width="1" opacity="0.3"/>
+  
+  <!-- The crack - dramatic diagonal fissure -->
+  <path d="M 86 60 L 104 82 L 96 108 L 118 132 L 112 160 L 132 186 L 126 208" 
+        fill="none" stroke="#1a1210" stroke-width="4" stroke-linejoin="miter" stroke-linecap="square"/>
+  <path d="M 104 82 L 128 76" stroke="#1a1210" stroke-width="3" stroke-linecap="square"/>
+  <path d="M 118 132 L 146 124" stroke="#1a1210" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M 112 160 L 84 166" stroke="#1a1210" stroke-width="2" stroke-linecap="square"/>
+  <path d="M 96 108 L 78 112" stroke="#1a1210" stroke-width="2" stroke-linecap="square"/>
+  
+  <!-- Crack highlights (dusk rim light) -->
+  <path d="M 88 62 L 106 84 L 98 110" fill="none" stroke="#f2b544" stroke-width="1" opacity="0.6"/>
+  <path d="M 120 134 L 114 162 L 134 188" fill="none" stroke="#e8d9c3" stroke-width="0.8" opacity="0.4"/>
+  
+  <!-- Carved keyhole at center of tablet -->
+  <!-- Outer recessed carving ring -->
+  <circle cx="138" cy="138" r="26" fill="#1a1210" stroke="#e8d9c3" stroke-width="2" opacity="0.9"/>
+  <circle cx="138" cy="138" r="22" fill="#1a1210" stroke="#f2b544" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Keyhole shape -->
+  <path d="M 138 122 
+           A 8 8 0 1 0 138 138 
+           L 130 154 
+           L 146 154 Z" 
+        fill="#e8d9c3" stroke="#1a1210" stroke-width="1.5" stroke-linejoin="round"/>
+  
+  <!-- Keyhole inner shadow / carve depth -->
+  <path d="M 138 125 
+           A 5 5 0 1 0 138 135 
+           L 133 150 
+           L 143 150 Z" 
+        fill="#1a1210"/>
+  
+  <!-- Keyhole glint -->
+  <path d="M 134 128 A 4 4 0 0 1 138 127" fill="none" stroke="#f2b544" stroke-width="1.2" stroke-linecap="round"/>
+  
+  <!-- Corner rivets / studs on badge -->
+  <circle cx="38" cy="44" r="5" fill="#a63a24" stroke="#f2b544" stroke-width="1.5"/>
+  <circle cx="222" cy="56" r="5" fill="#a63a24" stroke="#f2b544" stroke-width="1.5"/>
+  <circle cx="46" cy="226" r="5" fill="#a63a24" stroke="#f2b544" stroke-width="1.5"/>
+  <circle cx="210" cy="216" r="5" fill="#a63a24" stroke="#f2b544" stroke-width="1.5"/>
+  
+  <!-- Outer frame accent marks / utility ticks -->
+  <path d="M 120 14 L 120 24" stroke="#f2b544" stroke-width="2"/>
+  <path d="M 246 140 L 236 140" stroke="#f2b544" stroke-width="2"/>
+  <path d="M 24 124 L 34 124" stroke="#f2b544" stroke-width="2"/>
+  <path d="M 116 244 L 116 234" stroke="#f2b544" stroke-width="2"/>
+  
+  <!-- Bottom-left sand drift / corner wear -->
+  <path d="M 34 244 L 60 230 L 52 244 Z" fill="#a63a24" opacity="0.4"/>
+  
+  <!-- Small wordmark -->
+  <text x="128" y="248" font-family="monospace" font-size="7" fill="#e8d9c3" text-anchor="middle" letter-spacing="2" opacity="0.6">CRIMSON DESERT</text>
+</svg>
